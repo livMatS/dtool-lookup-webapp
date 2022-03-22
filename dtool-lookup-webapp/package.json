@@ -11,7 +11,7 @@
     "axios": "^0.26.1",
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.22",
-    "core-js": "^2.6.5",
+    "core-js": "^3.21.1",
     "filesize": "^8.0.7",
     "json2yaml": "^1.1.0",
     "moment": "^2.24.0",
