@@ -28,10 +28,10 @@ Preamble
 
 Create a file `.env` in the `dtool-lookup-webapp` directory with the following contents:
 
-```
-VUE_APP_DTOOL_LOOKUP_SERVER_URL="http://localhost:5000"
-VUE_APP_DTOOL_LOOKUP_SERVER_TOKEN_GENERATOR_URL="http://localhost:5001/token"
-```
+::
+
+    VUE_APP_DTOOL_LOOKUP_SERVER_URL="http://localhost:5000"
+    VUE_APP_DTOOL_LOOKUP_SERVER_TOKEN_GENERATOR_URL="http://localhost:5001/token"
 
 For deployment, replace these URLs with the actual endpoints of the lookup server and the token generator.
 
@@ -58,4 +58,4 @@ More information
 ----------------
 
 See dtool-lookup-webapp/README.md for more information about how to develop and build.
-See provision/README.rst for instructions on how to deploy using Ansibl.e
+See provision/README.rst for instructions on how to deploy using Ansible.
