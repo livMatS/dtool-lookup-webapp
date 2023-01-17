@@ -33,8 +33,14 @@ Create a file `.env` in the `dtool-lookup-webapp` directory with the following c
     VUE_APP_DTOOL_LOOKUP_SERVER_URL="http://localhost:5000"
     VUE_APP_DTOOL_LOOKUP_SERVER_TOKEN_GENERATOR_URL="http://localhost:5001/token"
 
-For deployment, replace these URLs with the actual endpoints of the lookup server and the token generator.
+For deployment, replace these URLs with the actual endpoints of the lookup server and the token generator, i.e.
 
+::
+
+    VUE_APP_DTOOL_LOOKUP_SERVER_URL="https://demo.dtool.dev/lookup"
+    VUE_APP_DTOOL_LOOKUP_SERVER_TOKEN_GENERATOR_URL="https://demo.dtool.dev/token"
+
+for the public demo.dtool.dev test server instance.
 
 Start a development server
 --------------------------
