@@ -15,7 +15,7 @@ export const store = createStore({
     current_dataset_annotations: null,
     num_filtered: 0,
     update_current_Per_Page: 10,
-    current_required_version: "0.18.0",
+    current_required_version: "0.17.2",
   },
   mutations: {
     update_free_text(state, free_text) {
