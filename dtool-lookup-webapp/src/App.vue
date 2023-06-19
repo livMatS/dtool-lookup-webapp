@@ -294,7 +294,7 @@ export default {
 
     shouldShowPagination() {
       return (
-        this.getinfo["dtool_lookup_server"] < this.$store.state.current_required_version
+        this.getinfo["dtool_lookup_server"] >= this.$store.state.current_required_version
       );
     },
   },
