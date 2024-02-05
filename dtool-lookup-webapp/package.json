@@ -11,7 +11,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.7",
     "@soerenmartius/vue3-clipboard": "^0.1.2",
-    "@vue/compat": "3.3.4",
+    "@vue/compat": "3.4.15",
     "axios": "^1.1.3",
     "bootstrap": "^5.1.3",
     "bootstrap-vue-3": "^0.5.1",
@@ -19,7 +19,7 @@
     "filesize": "^10.0.12",
     "json2yaml": "^1.1.0",
     "moment": "^2.24.0",
-    "vue": "3.3.4",
+    "vue": "3.4.15",
     "vue-axios": "^3.4.1",
     "vuex": "^4.0.2"
   },
